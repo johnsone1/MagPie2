@@ -43,6 +43,8 @@ public class Magpie2
             response = "Tell me more about your pets.";
         } else if (statement.indexOf("Mr. Tanczos") >= 0) {
             response = "He sounds like a forking good teacher!";
+        } else if (statement.trim().length() ==0) {
+            response = "Why don't you say something instead of spamming the enter key. That's right, I know what your doing!";
         }
 		else {
            response = getRandomResponse();
