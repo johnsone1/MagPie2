@@ -26,8 +26,8 @@
       <file leaf-file-name="Magpie2.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Magpie2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8807018" vertical-offset="1079" max-vertical-offset="1751">
-              <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+            <state vertical-scroll-proportion="2.4315789" vertical-offset="263" max-vertical-offset="1751">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,6 +139,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.MagpieRunner2">
     <configuration default="false" name="MagpieRunner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -389,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Magpie2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8807018" vertical-offset="1079" max-vertical-offset="1751">
-          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        <state vertical-scroll-proportion="2.4315789" vertical-offset="263" max-vertical-offset="1751">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
