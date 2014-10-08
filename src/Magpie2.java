@@ -45,7 +45,15 @@ public class Magpie2
             response = "He sounds like a forking good teacher!";
         } else if (statement.trim().length() ==0) {
             response = "Why don't you say something instead of spamming the enter key. That's right, I know what your doing!";
+        } else if (statement.indexOf("weather") >= 0) {
+            response = "I love today's weather!";
+        } else if (statement.indexOf("game") >= 0) {
+            response = "I also love to game, whether it's sports or video.";
+        } else if (statement.indexOf("salad") >=0) {
+            response = "Why would you want salad?!";
         }
+
+
 		else {
            response = getRandomResponse();
 		}
@@ -58,7 +66,7 @@ public class Magpie2
 	 */
 	private String getRandomResponse()
 	{
-		final int NUMBER_OF_RESPONSES = 4;
+		final int NUMBER_OF_RESPONSES = 6;
 		double r = Math.random();
 		int whichResponse = (int)(r * NUMBER_OF_RESPONSES);
 		String response = "";
@@ -79,7 +87,14 @@ public class Magpie2
 		{
 			response = "You don't say.";
 		}
-
+        else if (whichResponse == 4)
+        {
+            response = "What are you even saying?";
+        }
+        else if (whichResponse == 5)
+        {
+            response = "? ? ? ?";
+        }
 		return response;
 	}
 }
